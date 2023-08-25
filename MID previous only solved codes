@@ -1,0 +1,236 @@
+#include<iostream>
+#include<ctime>
+
+using namespace std;
+/*
+void copy(int &a,int&b,int &c)
+{
+    a*=2;b*=2;c*=2;
+}
+
+int main()
+{                                                                                   ###### love you Maksuda ########
+    int x=1,y=3,z=7;
+    copy(x,y,z);
+    cout<<"x= "<<x<<" ,y= "<<y<<" ,z= "<<z;
+}
+*/
+
+void display(char='*',int 1);
+int main()
+{
+    cout<<"no ar\n";
+    display('#');
+     cout<<"1st ar\n";
+    display('#');
+     cout<<"2nd ar\n";
+    display('#');
+}
+void display(char c,int n){
+
+for(int i=1;i<=n;i++)
+{
+    cout<<c;
+}
+cout<<endl;
+}
+
+/*
+class amb{
+public:
+    int i,j;
+    amb(int x,int y){i=x;j=y;}
+
+
+};
+void func(amb a,amb &b){
+cout<<a.i<<endl;}
+void func(amb a,amb b){
+cout<<b.i<<endl;}
+int main()
+{
+    amb ob1(12,13),ob2(14,15);
+    func(ob1,ob2);
+}
+*/
+/*class A{
+
+public:
+    void print(char*c){
+    cout<<c<<endl;}
+
+};
+int main(){
+A obj;
+obj.print("Hello c++");
+
+}
+
+/*
+#include <iostream>
+using namespace std;
+class Line {
+public:
+void setLength( double len );
+double getLength( void );
+Line();
+~Line();
+private:
+double length;
+};
+Line::Line(void) {
+cout << "Object created" << endl;
+}
+Line::~Line(void) {
+cout << "Object is being deleted" << endl;
+}
+void Line::setLength( double len ) {
+length = len;
+}
+double Line::getLength( void ) {
+return length;
+}
+int main() {
+Line line;
+line.setLength(6.0);
+cout << "Length of line : " <<
+line.getLength() <<endl;
+return 0;
+}
+*/
+/*
+
+X a,b(5);
+b.show();
+
+}
+
+
+
+
+
+
+
+/*class t_and_d{
+tm*a;
+public:
+    t_and_d(tm*t){
+    a=t;}
+void display(){
+cout<<"Time and date "<<asctime(a);}
+};
+int main(){
+time_t now=time(nullptr);
+tm*l=localtime(&now);
+t_and_d cu(l);
+cu.display();
+return 0;
+}
+*/
+
+/*
+#include <iostream>
+#include <ctime>
+using namespace std;
+
+class t_and_d {
+    tm* current_time_and_date;
+
+public:
+    t_and_d(tm* time_and_date) {
+        current_time_and_date = time_and_date;
+    }
+
+    void display() {
+        cout << "Time and date: " << asctime(current_time_and_date);
+    }
+};
+
+int main() {
+    time_t now = time(nullptr);
+    tm* local_time = localtime(&now);
+    t_and_d currentTimeAndDate(local_time);
+    currentTimeAndDate.display();
+    return 0;
+}
+*/
+/*class order {
+public :
+    void x(int *x,int *y){
+    int p;
+    if(*x>*y){
+    p=*y;
+    *y=*x;
+    *x=p;
+    }
+    cout<<*x<<" "<<*y;
+    }
+
+
+};
+int main()
+{
+    order obj;
+    int a=5,b=6;
+    obj.x(&a,&b);
+}
+*/
+
+/*class A {
+    public:
+    static int a, b; // Declaration of static member variables
+
+
+    static float C(int a, int b) {
+        return a + b;
+    }
+};
+int A::a = 5; // Definition of static member variables
+int A::b = 6;
+
+
+int main() {
+    cout << A::C(A::a, A::b);
+}
+*/
+/*class average{
+
+public:
+
+
+static float calculate_average(float x,float y ,float z ){
+    float average=(x+y+z)/3;
+    return average;
+}
+
+};
+int main(){
+    float x,y,z;
+    cin>>x;
+    cin>>y;
+    cin>>z;
+   cout<<"the average is :"<< average::calculate_average(x,y,z);
+    return 0;
+}*/
+///////////////////////////////////////////////////////////////////////////////////////////////
+#include<iostream>
+#include<ctime>
+
+using namespace std;       void display(char='*',int 1);
+int main()
+{
+    cout<<"no ar\n";
+    display('#');
+     cout<<"1st ar\n";
+    display('#');
+     cout<<"2nd ar\n";
+    display('#');
+}
+void display(char c,int n){
+
+for(int i=1;i<=n;i++)
+{
+    cout<<c;
+}
+cout<<endl;
+}
